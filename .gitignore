@@ -1,0 +1,24 @@
+# Virtual environments
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Large generated outputs -- regenerate with notebook
+*.png
+payment_reference_audit.csv
+data_profile.csv
+
+# Do NOT ignore data/ -- needed for reproducibility
